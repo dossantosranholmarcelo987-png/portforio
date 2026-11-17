@@ -1,0 +1,170 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfólio profissional de Seu Nome.">
+  <title>Meu Portfólio | Seu Nome</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header class="header">
+    <nav class="navbar container">
+      <a href="#inicio" class="logo">PORTFÓLIO<span>.</span></a>
+
+      <button class="menu-toggle" id="menu-toggle"
+        aria-label="Abrir menu" aria-expanded="false">
+        ☰
+      </button>
+
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#inicio">Início</a></li>
+        <li><a href="#sobre">Sobre mim</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container" id="inicio">
+      <div class="hero-content">
+        <span class="tag">● DISPONÍVEL PARA OPORTUNIDADES</span>
+        <p class="intro">Olá, eu sou</p>
+        <h1>Seu <span>Nome.</span></h1>
+        <h2>Seu cargo ou especialidade profissional</h2>
+        <p class="description">
+          Sou um profissional apaixonado por inovação,
+          criatividade e tecnologia. Meu objetivo é transformar
+          ideias em soluções modernas e eficientes.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#projetos" class="btn btn-primary">Ver projetos</a>
+          <a href="#contato" class="btn btn-outline">Entrar em contato</a>
+        </div>
+      </div>
+
+      <div class="hero-image">
+        <div class="profile-placeholder">
+          <span>SN</span>
+        </div>
+        <div class="floating-card">
+          <strong>100%</strong>
+          <small>Dedicação em cada projeto</small>
+        </div>
+      </div>
+    </section>
+
+    <section class="section about" id="sobre">
+      <div class="container">
+        <span class="section-tag">CONHEÇA MINHA HISTÓRIA</span>
+        <h2 class="section-title">Sobre <span>mim</span></h2>
+        <p class="section-text">
+          Meu nome é Seu Nome e sou profissional na área de
+          sua especialidade. Tenho interesse em desenvolver
+          soluções criativas, aprender novas tecnologias e
+          participar de projetos desafiadores.
+        </p>
+      </div>
+    </section>
+
+    <section class="section skills" id="habilidades">
+      <div class="container">
+        <span class="section-tag">O QUE EU FAÇO</span>
+        <h2 class="section-title">Minhas <span>habilidades</span></h2>
+
+        <div class="skills-grid">
+          <article class="skill-card">
+            <div class="skill-icon">01</div>
+            <h3>Comunicação</h3>
+            <p>Comunicação clara e trabalho em equipe.</p>
+          </article>
+
+          <article class="skill-card">
+            <div class="skill-icon">02</div>
+            <h3>Criatividade</h3>
+            <p>Criação de ideias e soluções inovadoras.</p>
+          </article>
+
+          <article class="skill-card">
+            <div class="skill-icon">03</div>
+            <h3>Organização</h3>
+            <p>Planejamento e compromisso com resultados.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section projects" id="projetos">
+      <div class="container">
+        <span class="section-tag">MEU TRABALHO</span>
+        <h2 class="section-title">Projetos em <span>destaque</span></h2>
+
+        <div class="projects-grid">
+          <article class="project-card">
+            <div class="project-visual visual-one">01</div>
+            <div class="project-info">
+              <h3>Projeto Web</h3>
+              <p>Uma solução digital moderna e responsiva.</p>
+              <a href="#" class="project-link">Ver projeto →</a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-visual visual-two">02</div>
+            <div class="project-info">
+              <h3>Projeto Criativo</h3>
+              <p>Um projeto desenvolvido com criatividade.</p>
+              <a href="#" class="project-link">Ver projeto →</a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-visual visual-three">03</div>
+            <div class="project-info">
+              <h3>Projeto Especial</h3>
+              <p>Uma experiência pensada para o usuário.</p>
+              <a href="#" class="project-link">Ver projeto →</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact" id="contato">
+      <div class="container">
+        <span class="section-tag">VAMOS CONVERSAR?</span>
+        <h2 class="section-title">Entre em <span>contato</span></h2>
+        <p class="section-text">
+          Tem uma oportunidade ou projeto em mente?
+          Estou pronto para conversar!
+        </p>
+
+        <div class="contact-links">
+          <a href="mailto:seuemail@email.com" class="btn btn-primary">
+            ✉ Enviar e-mail
+          </a>
+          <a href="https://www.linkedin.com/" target="_blank"
+             rel="noopener noreferrer" class="btn btn-outline">
+            LinkedIn
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Seu Nome. Todos os direitos reservados.</p>
+    <a href="#inicio">Voltar ao topo ↑</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
